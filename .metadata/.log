@@ -1,0 +1,60 @@
+!SESSION 2010-06-21 15:59:53.920 -----------------------------------------------
+eclipse.buildId=I20090611-1540
+java.version=1.6.0_20
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86, WS=cocoa, NL=sv_SE
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/perh/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86 -product org.eclipse.epp.package.java.product -keyring /Users/perh/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2010-06-21 16:00:00.891
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+!SESSION 2010-06-22 13:19:09.855 -----------------------------------------------
+eclipse.buildId=I20090611-1540
+java.version=1.6.0_20
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86, WS=cocoa, NL=sv_SE
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/perh/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86 -product org.eclipse.epp.package.java.product -keyring /Users/perh/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2010-06-22 13:19:23.002
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+!SESSION 2010-06-22 13:33:35.384 -----------------------------------------------
+eclipse.buildId=I20090611-1540
+java.version=1.6.0_20
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86, WS=cocoa, NL=sv_SE
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/perh/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86 -product org.eclipse.epp.package.java.product -keyring /Users/perh/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2010-06-22 13:33:46.319
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+!SESSION 2010-08-13 09:46:14.608 -----------------------------------------------
+eclipse.buildId=I20090611-1540
+java.version=1.6.0_20
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86, WS=cocoa, NL=sv_SE
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/perh/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86 -product org.eclipse.epp.package.java.product -keyring /Users/perh/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2010-08-13 09:46:43.046
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+!SESSION 2010-08-13 10:13:17.419 -----------------------------------------------
+eclipse.buildId=I20090611-1540
+java.version=1.6.0_20
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86, WS=cocoa, NL=sv_SE
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/perh/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86 -product org.eclipse.epp.package.java.product -keyring /Users/perh/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2010-08-13 10:13:24.184
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+!SESSION 2010-09-01 07:40:33.285 -----------------------------------------------
+eclipse.buildId=I20090611-1540
+java.version=1.6.0_20
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86, WS=cocoa, NL=sv_SE
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -keyring /Users/perh/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86 -product org.eclipse.epp.package.java.product -data /Users/perh/Documents/PTDC/Eclipse-workspaces/ptdc-workspace -product org.eclipse.epp.package.java.product -keyring /Users/perh/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2010-09-01 07:40:40.154
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
