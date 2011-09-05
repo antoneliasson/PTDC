@@ -58,3 +58,28 @@ Command-line arguments:  -os macosx -ws cocoa -arch x86 -product org.eclipse.epp
 
 !ENTRY org.eclipse.core.net 1 0 2010-09-01 07:40:40.154
 !MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+!SESSION 2011-09-05 21:53:47.002 -----------------------------------------------
+eclipse.buildId=I20110613-1736
+java.version=1.6.0_26
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=sv_SE
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jdt.launching 1 0 2011-09-05 21:53:57.279
+!MESSAGE Installed JRE 'JVM 1.4' removed due to missing VM type extension.
+
+!ENTRY org.eclipse.jdt.launching 1 0 2011-09-05 21:53:57.293
+!MESSAGE Installed JRE 'JVM 1.4.2' removed due to missing VM type extension.
+
+!ENTRY org.eclipse.jdt.launching 1 0 2011-09-05 21:53:57.293
+!MESSAGE Installed JRE 'JVM 1.5' removed due to missing VM type extension.
+
+!ENTRY org.eclipse.jdt.launching 1 0 2011-09-05 21:53:57.293
+!MESSAGE Installed JRE 'JVM 1.5.0' removed due to missing VM type extension.
+
+!ENTRY org.eclipse.jdt.launching 1 0 2011-09-05 21:53:57.293
+!MESSAGE Installed JRE 'JVM 1.6' removed due to missing VM type extension.
+
+!ENTRY org.eclipse.jdt.launching 1 0 2011-09-05 21:53:57.293
+!MESSAGE Installed JRE 'JVM 1.6.0 (MacOS X Default)' removed due to missing VM type extension.

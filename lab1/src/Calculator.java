@@ -7,6 +7,12 @@ public class Calculator {
 		double nbr1 = scan.nextDouble();
 		double nbr2 = scan.nextDouble();
 		double sum = nbr1 + nbr2;
+		double diff = nbr1 - nbr2;
+		double product = nbr1 * nbr2;
+		double quotient = nbr1 / nbr2;
 		System.out.println("Summan av talen är " + sum);
+		System.out.println("Skillnaden mellan talen är " + diff);
+		System.out.println("Produkten av talen är " + product);
+		System.out.println("Kvoten av talen är " + quotient);
 	}
 }
