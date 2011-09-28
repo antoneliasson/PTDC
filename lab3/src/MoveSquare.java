@@ -3,7 +3,7 @@ import se.lth.cs.ptdc.square.Square;
 
 public class MoveSquare {
 	public static void main(String[] args) {
-		SimpleWindow w = new SimpleWindow(600, 600, "PrintSquares");
+		SimpleWindow w = new SimpleWindow(600, 600, "MoveSquare");
 		Square sq = new Square(300, 300, 100);
 		sq.draw(w);
 		
