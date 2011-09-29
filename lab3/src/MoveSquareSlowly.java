@@ -9,14 +9,17 @@ public class MoveSquareSlowly {
 		
 		while(true) {
 			w.waitForMouseClick();
-			sq.erase(w);
-			int Xstep = w.getMouseX() - sq.getX(),
-					Ystep = w.getMouseY() - sq.getY();
+			//sq.erase(w);
+			int Xstep = (w.getMouseX() - sq.getX()) / 10,
+					Ystep = (w.getMouseY() - sq.getY()) / 10;
 			for (int i = 0; i < 10; i++) {
 				sq.move(Xstep, Ystep);
+				sq.draw(w);
+				SimpleWindow.delay(50);
 			}
 			//sq.move(w.getMouseX() - sq.getX(), w.getMouseY() - sq.getY());
 			System.out.println("X=" + sq.getX() + ", Y=" + sq.getY());
+			//w.clear();
 			sq.draw(w);
 		}
 	}
