@@ -1,7 +1,7 @@
 import se.lth.cs.ptdc.window.SimpleWindow;
 
 public class Turtle {
-	private SimpleWindow w; // fönstret sköldpaddan befinner sig i
+	protected SimpleWindow w; // fönstret sköldpaddan befinner sig i
 	private double x; // nuvarande x-koordinat
 	private double y; // nuvarande y-koordinat
 	private int orientation = 90; // nuvarande orientering i grader, räknat motsols med noll rakt österut
@@ -30,7 +30,7 @@ public class Turtle {
 	
 	/** Går rakt framåt n pixlar i den riktning som huvudet pekar */
 	public void forward(int n) {
-		w.moveTo((int)x, (int)y);
+		w.moveTo((int)Math.round(x), (int)Math.round(y));
 		x += n * Math.cos(Math.PI * orientation / 180);
 		y -= n * Math.sin(Math.PI * orientation / 180);
 		
