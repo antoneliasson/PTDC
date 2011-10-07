@@ -9,7 +9,7 @@ public class MoveSquareSlowly {
 		
 		while(true) {
 			w.waitForMouseClick();
-			//sq.erase(w);
+			w.clear();
 			int Xstep = (w.getMouseX() - sq.getX()) / 10,
 					Ystep = (w.getMouseY() - sq.getY()) / 10;
 			for (int i = 0; i < 10; i++) {

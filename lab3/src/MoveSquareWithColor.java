@@ -17,8 +17,10 @@ public class MoveSquareWithColor {
 			} else {
 				if (w.getKey() == 'r') {
 					w.setLineColor(new java.awt.Color(255, 0, 0));
+					sq.draw(w);
 				} else {
 					w.setLineColor(new java.awt.Color(0, 0, 0));
+					sq.draw(w);
 				}
 			}
 		}
