@@ -27,13 +27,14 @@ public class RacingEvent {
 		t1.penDown();
 		t2.penDown();
 		
-		while (t1.getY() >= track.getFinish() && t2.getY() >= track.getFinish()) { // fortsätt racet så länge ingen har gått i mål
+		// fortsätt loppet så länge ingen har passerat mållinjen
+		while (t1.getY() >= track.getFinish() && t2.getY() >= track.getFinish()) {
 			t1.forward(rand.nextInt(3));
 			t2.forward(rand.nextInt(3));
 			SimpleWindow.delay(20);
 		}
 		
-		// vi vet att en har vunnit, ta reda på vilken
+		// vi vet nu att en har vunnit, ta reda på vilken
 		if (t1.getY() < track.getFinish()) {
 			return t1;
 		} else {
