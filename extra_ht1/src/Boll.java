@@ -17,19 +17,15 @@ public class Boll {
 		x += Math.cos(Math.toRadians(direction)) * steps;
 		y -= Math.sin(Math.toRadians(direction)) * steps;
 		
-		if (x >= w.getWidth()) {
-			
-		} else if (x <= w.getWidth()) {
-			
-		} else if (y >= w.getHeight()) {
-			
-		} else if (y <= w.getHeight()) {
-			
+		if (x >= w.getWidth() || x <= 0) {
+			direction = 180 - direction;
+		} else if (y >= w.getHeight() || y <= 0) {
+			direction = -direction;
 		}
 	}
 	
 	public void draw() {
-		w.clear();
+		w.clear(); // eller vita en rit boll kanske? ;)
 		w.setLineWidth(10);
 		w.moveTo((int)x-5, (int)y);
 		w.lineTo((int)x+5, (int)y);
