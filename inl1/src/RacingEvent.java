@@ -4,8 +4,7 @@ import se.lth.cs.ptdc.window.SimpleWindow;
 /** Klass som ordnar ett lopp mellan två sköldpaddor */
 public class RacingEvent {
 	private RaceTrack track;
-	private Turtle t1;
-	private Turtle t2;
+	private Turtle t1, t2;
 	
 	/** Skapar ett lopp mellan sköldpaddorna t1 och t2 på
 	kapplöpningsbanan track */
@@ -28,7 +27,8 @@ public class RacingEvent {
 		t2.penDown();
 		
 		// fortsätt loppet så länge ingen har passerat mållinjen
-		while (t1.getY() >= track.getFinish() && t2.getY() >= track.getFinish()) {
+		while (t1.getY() >= track.getFinish() &&
+				t2.getY() >= track.getFinish()) {
 			t1.forward(rand.nextInt(3));
 			t2.forward(rand.nextInt(3));
 			SimpleWindow.delay(20);
