@@ -11,40 +11,15 @@ public class MazeTurtle extends Turtle {
 	 * @param maze
 	 */
 	public void walk(Maze maze) {
-		
-		System.out.println(maze.wallAtLeft(maze.getXEntry(), maze.getYEntry(), 90));
-		System.out.println(maze.wallInFront(maze.getXEntry(), maze.getYEntry(), 180));
-		jumpTo(maze.getXEntry(), maze.getYEntry());
-		
-		
-		/*
 		while(!maze.atExit(getX(), getY())) {
-			if (!maze.wallAtLeft(getX(), getY(), getDirection())) {
+			if (!maze.wallAtLeft(getDirection(), getX(), getY())) {
 				left(90);
 			}
-			if (maze.wallInFront(getX(), getY(), getDirection())) {
+			if (maze.wallInFront(getDirection(), getX(), getY())) {
 				left(-90);
 			}
 			forward(1);
-			SimpleWindow.delay(20);
+			SimpleWindow.delay(5);
 		}
-		*/
-		while(!maze.atExit(getX(), getY())) {
-			if (maze.wallAtLeft(getX(), getY(), getDirection())) {
-				if(maze.wallInFront(getX(), getY(), getDirection())) {
-					left(-90);
-					forward(1);
-				} else {
-					forward(1);
-				}
-			} else {
-				left(90);
-				forward(1);
-			}
-			SimpleWindow.delay(20);
-		}
-		
-		
-		
 	}
 }
