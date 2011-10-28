@@ -31,8 +31,8 @@ public class Turtle {
 	/** Går rakt framåt n pixlar i den riktning som huvudet pekar */
 	public void forward(int n) {
 		w.moveTo((int)Math.round(x), (int)Math.round(y));
-		x += n * Math.cos(Math.PI * orientation / 180);
-		y -= n * Math.sin(Math.PI * orientation / 180);
+		x += n * Math.cos(Math.toRadians(orientation));
+		y -= n * Math.sin(Math.toRadians(orientation));
 		
 		if (penEnabled) {
 			w.lineTo((int) Math.round(x), (int) Math.round(y));
@@ -44,14 +44,14 @@ public class Turtle {
 	/** Vrider beta grader åt vänster runt pennan */
 	public void left(int beta) {
 		orientation += beta;
-		orientation %= 360;
+		//orientation %= 360;
 	}
 	
 	/** Går till punkten newX,newY utan att rita. Pennans läge (sänkt 
 	    eller lyft) och huvudets riktning påverkas inte */
 	public void jumpTo(int newX, int newY) {
-		x = newX;
-		y = newY;
+		x = (int) Math.round(newX);
+		y = (int) Math.round(newY);
 	}
 	
 	/** Återställer huvudriktningen till den ursprungliga */
