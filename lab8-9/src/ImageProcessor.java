@@ -9,7 +9,8 @@ public class ImageProcessor {
 				new BlueFilter("Blue Filter"),
 				new InvertFilter("Invert Filter"),
 				new GrayScaleFilter("Gray Scale Filter"), // blir inte bilden lite sämre av detta filter?
-				new QuickGrayScaleFilter("Quick Gray Scale Filter")};
+				new QuickGrayScaleFilter("Quick Gray Scale Filter"),
+				new ContrastFilter("Contrast Filter")};
 		new ImageGUI(filters);
 	}
 }
