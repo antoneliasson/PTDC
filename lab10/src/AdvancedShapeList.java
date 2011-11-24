@@ -1,26 +1,25 @@
-import se.lth.cs.ptdc.shapes.Shape;
 import se.lth.cs.ptdc.window.SimpleWindow;
 
-public class ShapeList {
-	private java.util.ArrayList<Shape> shapes;
+public class AdvancedShapeList {
+	private java.util.ArrayList<AdvancedShape> shapes;
 	
 	/**
 	 * Skapar en tom lista.
 	 */
-	public ShapeList() {
-		shapes = new java.util.ArrayList<Shape>();
+	public AdvancedShapeList() {
+		shapes = new java.util.ArrayList<AdvancedShape>();
 	}
-
+	
 	/**
 	 * Lägger in en figur i listan.
 	 * 
 	 * @param s
 	 *            figuren som ska läggas in i listan
 	 */
-	public void insert(Shape s) {
+	public void insert(AdvancedShape s) {
 		shapes.add(s);
 	}
-
+	
 	/**
 	 * Ritar upp figurerna i listan.
 	 * 
@@ -32,22 +31,14 @@ public class ShapeList {
 			shapes.get(i).draw(w);
 		}
 	}
-
-	/**
-	 * Tar reda på en figur som ligger nära punkten xc,yc. Om flera figurer
-	 * ligger nära så returneras den första som hittas, om ingen figur ligger
-	 * nära returneras null.
-	 * 
-	 * @param xc
-	 *            x-koordinaten
-	 * @param yc
-	 *            y-koordinaten
-	 */
-	public Shape findHit(int xc, int yc) {
+	
+	public AdvancedShape figureAt(int xc, int yc) {
 		boolean found = false;
 		int i = 0;
+		System.out.println("size=" + shapes.size());
 		while (!found && i < shapes.size()) {
-			if (shapes.get(i).near(xc, yc)) {
+			System.out.println("loop!");
+			if (shapes.get(i).contains(xc, yc)) {
 				found = true;
 			} else {
 				i++;
