@@ -11,7 +11,8 @@ public class ImageProcessor {
 				new GrayScaleFilter("Gray Scale Filter"), // blir inte bilden lite sämre av detta filter?
 				new QuickGrayScaleFilter("Quick Gray Scale Filter"),
 				new ContrastFilter("Contrast Filter"),
-				new GaussFilter("Gauss Filter")};
+				new GaussFilter("Gauss Filter"),
+				new SobelFilter("Sobel Filter")};
 		new ImageGUI(filters);
 	}
 }
