@@ -35,9 +35,7 @@ public class AdvancedShapeList {
 	public AdvancedShape figureAt(int xc, int yc) {
 		boolean found = false;
 		int i = 0;
-		System.out.println("size=" + shapes.size());
 		while (!found && i < shapes.size()) {
-			System.out.println("loop!");
 			if (shapes.get(i).contains(xc, yc)) {
 				found = true;
 			} else {

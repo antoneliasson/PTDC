@@ -12,7 +12,6 @@ public class AdvancedCommandDispatcher {
 	public void mainLoop() {
 		while (true) {
 			w.waitForMouseClick();
-			System.out.println("klick!");
 			AdvancedShape selectedShape = shapes.figureAt(w.getMouseX(), w.getMouseY());
 			if (selectedShape != null) {
 				System.out.println("markerad!");

@@ -17,9 +17,9 @@ public class AdvancedShapeTest {
 				if (type.equals("S")) {
 					System.out.println("hittade square!");
 					shapes.insert(new AdvancedSquare(scanner.nextInt(), scanner.nextInt(), scanner.nextInt()));
-				} /*else if (type.equals("T")) { // orkar inte...
-					shapes.insert(new Triangle(scanner.nextInt(), scanner.nextInt(), scanner.nextInt()));
-				} */else if (type.equals("C")) {
+				} else if (type.equals("T")) { // orkar inte...
+					shapes.insert(new AdvancedTriangle(scanner.nextInt(), scanner.nextInt(), scanner.nextInt()));
+				} else if (type.equals("C")) {
 					shapes.insert(new AdvancedCircle(scanner.nextInt(), scanner.nextInt(), scanner.nextInt()));
 				} else {
 					System.err.println("hittade skrot i filen!");
