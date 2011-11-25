@@ -33,9 +33,9 @@ public class SobelFilter extends ImageFilter {
 				short sx = convolve(intensities, y, x, X_SOBEL, 1);
 				short sy = convolve(intensities, y, x, Y_SOBEL, 1);
 				if (Math.abs(sx) + Math.abs(sy) > paramValue) {
-					outPixels[y][x] = Color.WHITE;
-				} else {
 					outPixels[y][x] = Color.BLACK;
+				} else {
+					outPixels[y][x] = Color.WHITE;
 				}
 			}
 		}
