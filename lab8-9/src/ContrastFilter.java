@@ -29,7 +29,7 @@ public class ContrastFilter extends ImageFilter {
 		
 		int intensitySum = 0, index = 0;
 		double target = height * width * cutOff;
-		while (intensitySum < target) {
+		while (intensitySum < target && index < histogram.length - 1) {
 			intensitySum += histogram[index];
 			index++;
 		}
@@ -38,7 +38,7 @@ public class ContrastFilter extends ImageFilter {
 		
 		intensitySum = 0;
 		index = histogram.length;
-		while (intensitySum < target) {
+		while (intensitySum < target && index > 0) {
 			intensitySum += histogram[histogram.length - index];
 			index--;
 		}
